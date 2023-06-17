@@ -32,7 +32,6 @@ for item in (results['items']):
     if track['artists'][0]['uri'] == artist_uri:
         track_id = track['id']
         track_list.append(track_id)
-print(track_list)
 
 
 # Remove list of songs from playlist
